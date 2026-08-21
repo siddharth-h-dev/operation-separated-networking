@@ -10,4 +10,4 @@ OSN is an architectural philosophy prioritizing isolation and delegation of duti
 - Keep in mind that LXCs, Docker containers, etc. do not count as Operational Isolation as if the host is compromised, they are too.
 
 # How to Deploy OSN
-- **Deploy Core Infrastructure with Operational Isolation**. This does not include media servers and stuff, just the backbone stuff such as Firewall, Routing, Proxying, etc. Applying Operational
+- **Deploy Core Infrastructure with Operational Isolation**. This does not include media servers and stuff, just the backbone stuff such as Firewall, Routing, Proxying, etc. Applying Operational Isolation to those is not mandatory but may enhance security by limiting the blast radius.
