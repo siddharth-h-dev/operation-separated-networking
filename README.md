@@ -2,17 +2,26 @@
 
 OSN is an architectural philosophy prioritizing isolation and delegation of duties without sacrificing management ability, ensuring high security and maximum fault tolerance.
 
+
+# Industry standards associated
+
+- **NIST SP 800-207 (Zero Trust Architecture)** - Principles 1, 4
+- **Purdue Model (ICS/OT Security)** - Principle 2
+- **CIS Critical Security Controls (Specifically Control 12)** - Principle 5
+- **Disaggregated Networking** - Principle 4
+
 # Why did I write this?
 
 I hate walled-garden ecosystems, all-in-one stuff, SDN, etc.
 
-Some experiences and thoughts:-
+Some experiences and thoughts that led to this:-
 - All-in-one devices and consumer gear are vulnerable. Operations must be isolated so that one service compromise does not cripple the entire network. **Core infrastructure should be isolated**
 - I don't understand the appeal of Unifi Dream Machine. It's a single point of failure. Also have the same appeal with most consumer routers. They are not good for production environments. **Single points of failure should be minimized**.
 - OPNSense does not do Traffic shaping as well as OpenWRT. So, gave the traffic shaping duty to that. **The right duty must be given to the right software**.
 - Deploying Omada controller was a pain. It was bloated and crashed easily. I did not want a bulky application just to control my omada switch more efficiently. I also felt like i would be locked into omada if i kept it. **Applications should be more lightweight**.
 - Walled-garden ecosystems in general are bad. They cause vendor-lock. Management should be easy across products of different companies. **Management should be more simple and unified**.
 
+That's why I developed my own networking philosophy so that software following this philosophy will make networking easier, more secure and fault tolerant.
 
 # Core Principles
 
