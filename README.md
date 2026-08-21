@@ -21,7 +21,7 @@ Some experiences and thoughts that led to this:-
 - Deploying Omada controller was a pain. It was bloated and crashed easily. I did not want a bulky application just to control my omada switch more efficiently. I also felt like i would be locked into omada if i kept it. **Applications should be more lightweight**.
 - Walled-garden ecosystems in general are bad. They cause vendor-lock. Management should be easy across products of different companies. **Management should be more simple and unified**.
 
-That's why I developed my own networking philosophy so that software following this philosophy will make networking easier, more secure and fault tolerant.
+That's why I developed my own networking philosophy so that software following this philosophy will make networking easier, more secure and fault tolerant. I wrote this with the homelabbing community in mind since I am a homelabber too.
 
 # Core Principles
 
@@ -59,3 +59,11 @@ That's why I developed my own networking philosophy so that software following t
 - **Delegate your duties** - Use specialized hardware or software for your duties.
 - **Maximize your resources** - Use lightweight software and make sure your services aren't hogging too much resources.
 - **Simplify and Unify Management** - You will thank yourself later.
+
+# Developing Software and Hardware that abides by OSN
+Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software in 2026.
+
+# What I do
+I develop software that follows OSN. Check out my other repos if you are interested.
+
+# END
