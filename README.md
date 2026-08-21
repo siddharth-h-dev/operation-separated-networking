@@ -66,4 +66,7 @@ Just keep the principles in mind while developing. I am telling you, If you deve
 # What I do
 I develop software that follows OSN. Check out my other repos if you are interested.
 
+# A final note: Support OSN
+OSN is built for the community. If you're tired of vendor lock-in and all-in-one stuff (I know I am), star this repo to support the movement, or open an issue to discuss how OSN can be improved. We need a revolution!
+
 # END
