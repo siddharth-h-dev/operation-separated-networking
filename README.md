@@ -2,6 +2,18 @@
 
 OSN is an architectural philosophy prioritizing isolation and delegation of duties without sacrificing management ability, ensuring high security and maximum fault tolerance.
 
+# Why did I write this?
+
+I hate walled-garden ecosystems, all-in-one stuff, SDN, etc.
+
+Some experiences and thoughts:-
+- All-in-one devices and consumer gear are vulnerable. Operations must be isolated so that one service compromise does not cripple the entire network. **Core infrastructure should be isolated**
+- I don't understand the appeal of Unifi Dream Machine. It's a single point of failure. Also have the same appeal with most consumer routers. They are not good for production environments. **Single points of failure should be minimized**.
+- OPNSense does not do Traffic shaping as well as OpenWRT. So, gave the traffic shaping duty to that. **The right duty must be given to the right software**.
+- Deploying Omada controller was a pain. It was bloated and crashed easily. I did not want a bulky application just to control my omada switch more efficiently. I also felt like i would be locked into omada if i kept it. **Applications should be more lightweight**.
+- Walled-garden ecosystems in general are bad. They cause vendor-lock. Management should be easy across products of different companies. **Management should be more simple and unified**.
+
+
 # Core Principles
 
 ## Principle 1: Operational Isolation - A network is only as secure as its widest blast radius.
