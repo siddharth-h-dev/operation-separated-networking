@@ -6,7 +6,7 @@ OSN is an architectural philosophy prioritizing isolation and delegation of duti
 # Industry standards associated
 
 - **NIST SP 800-207 (Zero Trust Architecture)** - Principles 1, 4
-- **Purdue Model (ICS/OT Security)** - Principle 2
+- **Purdue Model (ICS/OT Security)** - Principle 1
 - **CIS Critical Security Controls (Specifically Control 12)** - Principle 5
 - **Disaggregated Networking** - Principle 4
 
