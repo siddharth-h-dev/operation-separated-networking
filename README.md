@@ -28,6 +28,10 @@ That's why I developed my own networking philosophy so that software following t
 # Core Principles
 
 ## Principle 1: Operational Isolation - A network is only as secure as its widest blast radius.
+<div align="center">
+  <img width="1920" height="1080" alt="OSN P1" src="https://github.com/user-attachments/assets/e5265739-dbd4-4c4e-81a4-435137b61ed6" />
+</div>
+
 - **Core infrastructure should be isolated from one another** (through VMs or separate devices) to minimize the blast radius if one service is compromised.
 - For example, North-South Traffic (NAT, Edge routing) and East-West Traffic (Local network management) should be separated as **Firewall** and **L3 Managed Switch** instead of an *All-in-one* networking device such as Consumer routers or even the Ubliquiti Unifi Dream Machine series.
 - Keep in mind that Linux Containers (LXCs), Docker containers, etc. do not count as Operational Isolation as they are not separated from host hardware and one compromised container can affect others.
