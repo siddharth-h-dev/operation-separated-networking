@@ -99,12 +99,12 @@ Two reasons:-
 
 ## 5. "OSN does not appeal to everyone. You know that right?"
 I completely understand. OSN is for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
-**Who OSN may not appeal to:-**
+### Who OSN may not appeal to:-
 - General Consumers with standard all-in-one wifi routers.
 - Companies with already established networks.
 - Companies like Omada and Ubliquiti who create walled-garden ecosystems.
 - People who are fine with being in their existing Unifi or Omada ecosystems.
-**Who I want OSN to appeal to:-**
+### Who I want OSN to appeal to:-
 - The homelabbing community.
 - People who built open-source networking and network management projects.
 - People who want maximum security and fault tolerance in their network.
