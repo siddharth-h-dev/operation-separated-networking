@@ -117,7 +117,7 @@ I just had a bad experience deploying it. I also had to cannibalize one of my se
 Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software and hardware in 2026.
 
 # What I do
-I develop software that follows OSN. Check out my other repos if you are interested.
+I develop software that follows OSN. Check out my other repos if you are interested (there's only one at the moment but whatever).
 
 # A final note: Support OSN
 OSN is built for the community. If you're tired of vendor lock-in and all-in-one stuff (I know I am), star this repo to support the movement, or open an issue to discuss how OSN can be improved. We need a revolution!
