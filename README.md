@@ -53,14 +53,45 @@ That's why I developed my own networking philosophy so that software following t
 - By following the first three principles, your infrastructure would be separated a lot. So, **Unifiying and Simplifying Management** is necessary.
 - Use specialized stuff for this (For example, Omada Network Controllers for Omada stuff).
 
-# How to Deploy OSN
+# FAQs
+
+## 1. "How do I Deploy OSN in my network?"
 - **Deploy Core Infrastructure with Operational Isolation** - Deploy the backbone of your Infrastructure with strict isolation.
 - **Segregate your services** - Use Containerization (Docker, LXC) and/or use separate hardware for each set of services if possible.
 - **Delegate your duties** - Use specialized hardware or software for your duties.
 - **Maximize your resources** - Use lightweight software and make sure your services aren't hogging too much resources.
 - **Simplify and Unify Management** - You will thank yourself later.
 
-# Developing Software and Hardware that abides by OSN
+## 2. "I do not have the necessary resources to deploy a network like this. What do I do?"
+I can understand that not everyone will have the resources to deploy OSN right away. But it's OK. OSN is not meant to be deployed right away when someone starts homelabbing. It is meant for people who want higher security, easy management and fault tolerance.
+You can deploy OSN once you have the resources needed.
+
+## 3. "Why do you not like all-in-one network gateways like the Unifi Dream Machine?"
+Two reasons:-
+1. If it is hacked, the hacker can easily take control of your network (Violating Principle 1)
+2. It is a Single Point of Failure where all networking functions are in one box. (Violating Principle 2)
+
+## 4. "Management of a network like this will be very hard. There is no such software. What do you suggest?"
+There are some software that will make management a tad bit easier, like Homepage, Proxmox Datacenter Manager, Grafana, etc. but they do not allow full unified network management. If there is such software, let me know.
+I want to develop such a software.Stay tuned for that.
+
+## 5. "OSN does not appeal to everyone. You know that right?"
+I completely understand. OSN if for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
+**Who OSN may not appeal to:-**
+- General Consumers with standard all-in-one wifi routers.
+- Companies with already established networks.
+- Companies like Omada and Ubliquiti who create walled-garden ecosystems.
+- People who are fine with being in their existing Unifi or Omada ecosystems.
+**Who I want OSN to appeal to:-**
+- The homelabbing community.
+- People who built open-source networking and network management projects.
+- People who want maximum security and fault tolerance in their network.
+- People who want a change in the current SDN trend.
+
+## 6. "What's wrong with the Omada controller?"
+I just had a bad experience deploying it. I also had to cannibalize one of my services. I think that it is way too bloated just to manage the only Ethernet switch that I have.
+
+## 7. "How do I develop Software and Hardware that abides by OSN?"
 Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software and hardware in 2026.
 
 # What I do
