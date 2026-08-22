@@ -15,7 +15,7 @@ OSN is an architectural philosophy prioritizing isolation and delegation of duti
 I hate walled-garden ecosystems, all-in-one stuff, SDN, etc.
 
 Some experiences and thoughts that led to this:-
-- All-in-one devices and consumer gear are vulnerable. Operations must be isolated so that one service compromise does not cripple the entire network. **Core infrastructure should be isolated**
+- All-in-one devices and consumer gear are vulnerable. Operations must be isolated so that one service compromise does not cripple the entire network. **Core infrastructure should be isolated**.
 - I don't understand the appeal of Unifi Dream Machine. It's a single point of failure. Also have the same appeal with most consumer routers. They are not good for production environments. **Single points of failure should be minimized**.
 - OPNSense does not do Traffic shaping as well as OpenWRT. So, gave the traffic shaping duty to that. **The right duty must be given to the right software**.
 - Deploying Omada controller was a pain. It was bloated and crashed easily. I did not want a bulky application just to control my omada switch more efficiently. I also felt like i would be locked into omada if i kept it. **Applications should be more lightweight**.
@@ -33,7 +33,7 @@ That's why I developed my own networking philosophy so that software following t
 - This does not include media servers and stuff, just the backbone stuff such as **Firewall, Routing, Proxying, etc.** Applying Operational Isolation to those is not mandatory but may enhance security by limiting the blast radius.
 
 ## Principle 2: Service Segregation - Don't put all your eggs in one basket.
-- **Services should be segregated** to minimize **Single Points of Failure**
+- **Services should be segregated** to minimize **Single Points of Failure**.
 - Instead of multiple services being hosted on one virtual machine or container, each service should be hosted on its own virtual machine or container.
 - Using LXC or Docker containerization is the most efficient way to achieve this but the host will also be a failure point. Virtual machines are also a good option for large services.
 - Operation Separation can be done physically by keeping separate hardware for a set of services if possible.
@@ -50,7 +50,7 @@ That's why I developed my own networking philosophy so that software following t
 
 ## Principle 5: Easy Management - Your infrastructure needs autopilot at this point.
 - **Management of your network should be easy and unified**.
-- By following the first three principles, your infrastructure would be separated a lot. So, **Unifiying and Simplifying Management** is necessary
+- By following the first three principles, your infrastructure would be separated a lot. So, **Unifiying and Simplifying Management** is necessary.
 - Use specialized stuff for this (For example, Omada Network Controllers for Omada stuff).
 
 # How to Deploy OSN
@@ -61,7 +61,7 @@ That's why I developed my own networking philosophy so that software following t
 - **Simplify and Unify Management** - You will thank yourself later.
 
 # Developing Software and Hardware that abides by OSN
-Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software in 2026.
+Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software and hardware in 2026.
 
 # What I do
 I develop software that follows OSN. Check out my other repos if you are interested.
