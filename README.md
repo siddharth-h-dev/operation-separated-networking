@@ -58,11 +58,19 @@ That's why I developed my own networking philosophy so that software following t
 - Specialized technology can do one or two things very efficiently and other things very poorly. So, delegate those duties to technology specialized for those duties.
 
 ## Principle 4: Resource Maximization - Get the most out of what you got.
+<div align="center">
+  <img width="1920" height="1080" alt="OSN P4" src="https://github.com/user-attachments/assets/5b1c1ee1-161b-40da-9851-319a83c25f86" />
+</div>
+
 - **Services and Applications should be lightweight** so that OSN's other principles can be implemented more effectively.
 - Use more lightweight operating systems, software, etc. whenever necessary.
 - For example, deploying small applications through **Docker** is better than **LXC** as docker containers *use less resources*.
 
 ## Principle 5: Easy Management - Your infrastructure needs autopilot at this point.
+<div align="center">
+  <img width="1920" height="1080" alt="OSN P5" src="https://github.com/user-attachments/assets/a0cb2f80-458a-41d1-a310-4e240a602073" />
+</div>
+
 - **Management of your network should be easy and unified**.
 - By following the first three principles, your infrastructure would be separated a lot. So, **Unifiying and Simplifying Management** is necessary.
 - Use specialized stuff for this (For example, Omada Network Controllers for Omada stuff).
