@@ -85,9 +85,9 @@ Two reasons:-
 1. If it is hacked, the hacker can easily take control of your network (Violating Principle 1)
 2. It is a Single Point of Failure where all networking functions are in one box. (Violating Principle 2)
 
-## 4. "Management of a network like this will be very hard. There is no such software. What do you suggest?"
-There are some software that will make management a tad bit easier, like Homepage, Proxmox Datacenter Manager, Grafana, etc. but they do not allow full unified network management. If there is such software, let me know.
-I want to develop such a software.Stay tuned for that.
+## 4. "Management of a network like this will be very hard. What do you suggest?"
+There are some software that will make management easier, like Homepage, Proxmox Datacenter Manager, Grafana, etc. but they do not allow full unified network management. If there is such software, let me know.
+I want to develop such a software. Stay tuned for that.
 
 ## 5. "OSN does not appeal to everyone. You know that right?"
 I completely understand. OSN is for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
