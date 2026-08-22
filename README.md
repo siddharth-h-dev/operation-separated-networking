@@ -1,7 +1,7 @@
 # Operation Separated Networking (OSN)
-
-<img width="300" height="300" alt="OSN" src="https://github.com/user-attachments/assets/5cebb9f9-93c5-43d8-a35c-e4f058f67419" />
-
+<div align="center">
+  <img width="300" height="300" alt="OSN" src="https://github.com/user-attachments/assets/5cebb9f9-93c5-43d8-a35c-e4f058f67419" />
+</div>
 OSN is an architectural philosophy prioritizing isolation and delegation of duties without sacrificing management ability, ensuring high security and maximum fault tolerance.
 
 
