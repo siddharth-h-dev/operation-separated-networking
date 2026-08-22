@@ -39,12 +39,20 @@ That's why I developed my own networking philosophy so that software following t
 - This does not include media servers and stuff, just the backbone stuff such as **Firewall, Routing, Proxying, etc.** Applying Operational Isolation to those is not mandatory but may enhance security by limiting the blast radius.
 
 ## Principle 2: Service Segregation - Don't put all your eggs in one basket.
+<div align="center">
+  <img width="1920" height="1080" alt="OSN P2" src="https://github.com/user-attachments/assets/6593223e-b6e4-4dd9-90d8-29a5b70f116f" />
+</div>
+
 - **Services should be segregated** to minimize **Single Points of Failure**.
 - Instead of multiple services being hosted on one virtual machine or container, each service should be hosted on its own virtual machine or container.
 - Using LXC or Docker containerization is the most efficient way to achieve this but the host will also be a failure point. Virtual machines are also a good option for large services.
 - Operation Separation can be done physically by keeping separate hardware for a set of services if possible.
 
 ## Principle 3: Efficient Delegation - Give the right role to the right thing.
+<div align="center">
+  <img width="1920" height="1080" alt="OSN  P3" src="https://github.com/user-attachments/assets/88625c82-664e-4e94-b820-e4f6644a1a7e" />
+</div>
+
 - **Duties should be delegated to specialized hardware (or) software** to achieve maximum efficiency.
 - For example, delegating the role of Traffic Shaping to a **Linux-based OS** (OpenWRT, Alpine Linux, etc.) is better than doing it on your **existing firewall OS** (OPNSense pfSense, etc.) as Linux is *better suited* for this.
 - Specialized technology can do one or two things very efficiently and other things very poorly. So, delegate those duties to technology specialized for those duties.
