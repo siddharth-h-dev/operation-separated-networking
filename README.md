@@ -94,8 +94,8 @@ Two reasons:-
 2. It is a Single Point of Failure where all networking functions are in one box. (Violating Principle 2)
 
 ## 4. "Management of a network like this will be very hard. What do you suggest?"
-There are some software that will make management easier, like Homepage, Proxmox Datacenter Manager, Grafana, etc. but they do not allow full unified network management. If there is such software, let me know.
-I want to develop such a software. Stay tuned for that.
+- It’s the hardest part. Right now, the best way to achieve Unified Management is through Infrastructure as Code (IaC).  Use tools like Ansible or Terraform to push configurations to your isolated VMs from a single script. For monitoring, Grafana + Prometheus gives you a "Single Pane of Glass" to see everything.
+- However, there is no lightweight, vendor-neutral GUI controller that does this out-of-the-box for networks. I will develop such a software one day. Stay tuned. 
 
 ## 5. "OSN does not appeal to everyone. You know that right?"
 I completely understand. OSN is for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
