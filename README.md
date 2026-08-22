@@ -1,4 +1,106 @@
 # Operation Separated Networking (OSN)
+<img width="1080" height="1080" alt="OSN" src="https://github.com/user-attachments/assets/633f8c92-e115-4e78-bd76-58a28bc500d0" />
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080"
+   height="1080"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="OSN.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.7601852"
+     inkscape:cx="540"
+     inkscape:cy="540"
+     inkscape:window-width="3840"
+     inkscape:window-height="2110"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:3.5;fill-opacity:1"
+       id="rect1"
+       width="1083.9768"
+       height="1078.8638"
+       x="-3.4087322"
+       y="-1.1362441"
+       ry="6.3124671" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       style="font-size:393.8px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.17863"
+       x="412.72897"
+       y="647.43317"
+       id="text1"
+       transform="scale(0.96804528,1.0330095)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="412.72897"
+         y="647.43317"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:7.17863">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:369.987px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.74455"
+       x="155.73322"
+       y="385.38101"
+       id="text2"
+       transform="scale(0.95466024,1.0474931)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="155.73322"
+         y="385.38101"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:6.74455">O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:325.118px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.92663"
+       x="684.69574"
+       y="837.30829"
+       id="text3"
+       transform="scale(0.93271923,1.072134)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="684.69574"
+         y="837.30829"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:5.92663">N</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.5;stroke-opacity:1"
+       d="M 521.53603,260.76801 C 438.40084,346.17569 355.26565,431.58337 272.13046,516.99105"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.5;stroke-opacity:1"
+       d="M 743.67175,526.64913 C 660.53656,612.05681 577.40137,697.46449 494.26618,782.87217"
+       id="path5" />
+  </g>
+</svg>
+
 
 OSN is an architectural philosophy prioritizing isolation and delegation of duties without sacrificing management ability, ensuring high security and maximum fault tolerance.
 
