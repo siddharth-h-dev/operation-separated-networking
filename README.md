@@ -76,7 +76,7 @@ There are some software that will make management a tad bit easier, like Homepag
 I want to develop such a software.Stay tuned for that.
 
 ## 5. "OSN does not appeal to everyone. You know that right?"
-I completely understand. OSN if for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
+I completely understand. OSN is for people with specific goals such as high security, maximum fault tolerance, etc. I don't care if it appeals to everyone. Maybe all-in-one boxes or SDN may be good for them.
 **Who OSN may not appeal to:-**
 - General Consumers with standard all-in-one wifi routers.
 - Companies with already established networks.
