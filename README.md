@@ -89,7 +89,7 @@ I completely understand. OSN is for people with specific goals such as high secu
 - People who want a change in the current SDN trend.
 
 ## 6. "What's wrong with the Omada controller?"
-I just had a bad experience deploying it. I also had to cannibalize one of my services. I think that it is way too bloated just to manage the only Ethernet switch that I have.
+I just had a bad experience deploying it. I also had to cannibalize one of my services. I think that it is way too bloated just to manage the only Ethernet switch that I have. Also, it is a Single Point of Failure and if it is compromised, your Omada network is compromised i guess. (Violates Principles 1 and 2)
 
 ## 7. "How do I develop Software and Hardware that abides by OSN?"
 Just keep the principles in mind while developing. I am telling you, If you develop your hardware or software with OSN Principles, Network management and efficiency will be way better for enthusiasts and IT professionals alike. We are in desperate need of such software and hardware in 2026.
